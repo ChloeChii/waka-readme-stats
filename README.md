@@ -59,6 +59,21 @@ Add a comment to your `README.md` like this:
 
 ```md
 <!--START_SECTION:waka-->
+![Code Time](http://img.shields.io/badge/Code%20Time-0%20secs-blue)
+
+**I Mostly Code in Python** 
+
+```text
+Python                   6 repos             ██████████░░░░░░░░░░░░░░░   42.86% 
+Java                     6 repos             ██████████░░░░░░░░░░░░░░░   42.86% 
+JavaScript               1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   7.14% 
+C                        1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   7.14%
+
+```
+
+
+
+ Last Updated on 02/08/2023 21:18:50 UTC
 <!--END_SECTION:waka-->
 ```
 
