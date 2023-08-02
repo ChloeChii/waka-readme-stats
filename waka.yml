@@ -3,7 +3,7 @@ name: Waka Readme
 on:
   schedule:
     # Runs at 2:30 PDT
-    - cron: '30 14 * * *'
+    - cron: '40 14 * * *'
   workflow_dispatch:
 jobs:
   update-readme:
