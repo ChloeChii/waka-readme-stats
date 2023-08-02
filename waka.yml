@@ -1,4 +1,6 @@
-name: Waka Readme
+name: 'Profile Readme Development Stats'
+author: Chloe Chi
+description: 'Are you an early bird or a night owl? When are you most productive during the day? Let''s check out in your readme!'
 
 on:
   schedule:
