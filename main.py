@@ -1,26 +1,27 @@
 '''
 Readme Development Metrics With waka time progress
 '''
-import re
-import os
 import base64
-from pytz import timezone
-import pytz
-import requests
-from github import Github, GithubException, InputGitAuthor
 import datetime
-from string import Template
-from loc import LinesOfCode
+import json
+import math
+import os
+import re
+import sys
 import time
 import traceback
-import humanize
-from urllib.parse import quote
-import json
-import sys
 from datetime import date
-import math
+from string import Template
+from urllib.parse import quote
 
+import humanize
+import pytz
+import requests
 from dotenv import load_dotenv
+from github import Github, GithubException, InputGitAuthor
+from pytz import timezone
+
+from loc import LinesOfCode
 
 load_dotenv()
 
@@ -554,7 +555,7 @@ if __name__ == '__main__':
         id = user_data["data"]["viewer"]["id"]
         email = user_data["data"]["viewer"]["email"]
         print("Username " + username)
-        repo = g.get_repo(f"{username}/{username}")
+        repo = g.get_repo(f"{username}/waka-readme-stats")
         contents = repo.get_readme()
         try:
             with open(os.path.join(os.path.dirname(__file__), 'translation.json'), encoding='utf-8') as config_file:
@@ -581,7 +582,7 @@ if __name__ == '__main__':
                                  committer=committer)
             except:
                 repo.update_file(path=contents.path, message=commit_message,
-                                 content=new_readme, sha=contents.sha, branch='main',
+                                 content=new_readme, sha=contents.sha, branch='master',
                                  committer=committer)
             print("Readme updated")
         end_time = datetime.datetime.now().timestamp() * 1000
