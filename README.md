@@ -1,6 +1,14 @@
-> Looking For Translation to different languages & Locale  [#23](https://github.com/anmol098/waka-readme-stats/issues/23)
+### Hi there, I'm Chloe Chi 
 
-# Dev Metrics in Readme with added feature flags 🎌
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0073b1?logo=linkedin&style=flat-square&logoColor=white)](https://www.linkedin.com/in/chloechii/)
+<!-- [![StackOverflow](https://img.shields.io/badge/StackOverflow-333?logo=stackoverflow&style=flat-square&logoColor=FE7A16)](https://stackoverflow.com/users/3779757/anayarojo?tab=profile) -->
+<!-- [![Blog](https://img.shields.io/badge/Blog-1976d2?logo=bitbucket&style=flat-square&logoColor=white)](http://anayarojo.net/) -->
+
+### Technologies
+![JAVA](https://img.shields.io/badge/Java-C3002F?style=flat-square&logo=Java)
+![Python](https://img.shields.io/badge/Python-00758F?style=flat-square&logo=python&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-690081?style=flat-square&logo=sqlite)
+![git](https://img.shields.io/badge/git-F05133?style=flat-square&logo=git&logoColor=white)
 
 <!-- ![Project Preview](https://user-images.githubusercontent.com/25841814/79395484-5081ae80-7fac-11ea-9e27-ac91472e31dd.png) -->
 <!-- 
@@ -10,9 +18,7 @@
 
   <h3 align="center">📌✨Awesome Readme Stats</h3>
 </p> -->
-
-----
-
+<!-- 
 <p align="center">
    <img src="https://img.shields.io/badge/language-python-blue?style"/>
    <img src="https://img.shields.io/github/license/anmol098/waka-readme-stats"/>
@@ -28,15 +34,17 @@
    What are languages you code in?
    <br/>
    Let's check out in your profile readme!
-</p>
+</p> -->
 
+
+<!-- 
 <p align="center">
     <a href="https://github.com/anmol098/waka-readme-stats/issues">Report Bug</a>
     ·
     <a href="https://github.com/anmol098/waka-readme-stats/issues">Request Feature</a>
-  </p>
+  </p> -->
 
-## Prep Work
+<!-- ## Prep Work
 
 1. You need to update the markdown file(.md) with 2 comments. You can refer [here](#update-your-readme) for updating it.
 2. You'll need a WakaTime API Key. You can get that from your WakaTime Account Settings
@@ -51,29 +59,31 @@
 5. You can enable and disable feature flags based on requirements.
 
 
-This Action will run everyday at 00.00 IST
+This Action will run everyday at 00.00 IST -->
 
-## Update your Readme
+<!-- ## Update your Readme -->
 
-Add a comment to your `README.md` like this:
+<!-- Add a comment to your `README.md` like this: -->
 
 ```md
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-0%20secs-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-3%2C439%20hrs%207%20mins-blue)
 
-**I Mostly Code in Python** 
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-8%20Million%20lines%20of%20code-blue)
+<!-- ![Code Time](http://img.shields.io/badge/Code%20Time-0%20secs-blue) -->
 
-```text
-Python                   6 repos             ██████████░░░░░░░░░░░░░░░   42.86% 
-Java                     6 repos             ██████████░░░░░░░░░░░░░░░   42.86% 
-JavaScript               1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   7.14% 
-C                        1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   7.14%
+**I Mostly Code in Java** 
 
-```
+<!-- ```text -->
+Python                   6 repos             ████████░░░░░░░░░░░░░░░░░   28.16% 
+Java                     6 repos             ████████████████░░░░░░░░░   65.86% 
+JavaScript               1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   2.14% 
+C                        1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   3.84%
+
+<!-- ``` -->
 
 
 
- Last Updated on 02/08/2023 21:18:50 UTC
 <!--END_SECTION:waka-->
 ```
 
